@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yarta.Yatralay">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="yarta.Yatralay.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="yarta.Yatralay.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="yarta.Yatralay.AnalysisActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yarta.Yatralay.MainActivity" />
+        </activity>
+        <activity android:name="yarta.Yatralay.BudgetActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yarta.Yatralay.MainActivity" />
+        </activity>
+        <activity android:name="yarta.Yatralay.ReviewActivity"
+            android:label="Analysis">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yarta.Yatralay.AnalysisActivity" />
+        </activity>
+        <activity
+            android:name="yarta.Yatralay.UnderbudgetActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yarta.Yatralay.BudgetActivity" />
+        </activity>
+
+        <activity android:name="yarta.Yatralay.VideosCityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yarta.Yatralay.VideoActivity" />
+        </activity>
+
+        <activity android:name="yarta.Yatralay.VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yarta.Yatralay.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="yarta.Yatralay.PlaceActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yarta.Yatralay.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="yarta.Yatralay.city.MumbaiActivity"
+            android:label="Mumbai" />
+        <activity
+            android:name="yarta.Yatralay.city.DelhiActivity"
+            android:label="Delhi" />
+        <activity
+            android:name="yarta.Yatralay.city.KotaActivity"
+            android:label="Kota" />
+        <activity
+            android:name="yarta.Yatralay.city.ChennaiActivity"
+            android:label="Chennai" />
+        <activity
+            android:name="yarta.Yatralay.city.KasolActivity"
+            android:label="Kasol" />
+        <activity
+            android:name="yarta.Yatralay.city.ManaliActivity"
+            android:label="Manali" />
+        <activity
+            android:name="yarta.Yatralay.city.BengaluruActivity"
+            android:label="Bangalauru" />
+        <activity
+            android:name="yarta.Yatralay.city.KolkataActivity"
+            android:label="Kolkata" />
+        <activity
+            android:name="yarta.Yatralay.city.PuneActivity"
+            android:label="Pune" />
+        <activity
+            android:name="yarta.Yatralay.city.JaipurActivity"
+            android:label="Jaipur" />
+        <activity
+            android:name="yarta.Yatralay.city.ChandigarhActivity"
+            android:label="Chandigadh" />
+        <activity
+            android:name="yarta.Yatralay.city.AgraActivity"
+            android:label="Agra" />
+        />
+        <activity
+            android:name="yarta.Yatralay.city.GoaActivity"
+            android:label="Goa" />
+        />
+        <activity
+            android:name="yarta.Yatralay.city.AmritsarActivity"
+            android:label="Amritsar" />
+        />
+        <activity
+            android:name="yarta.Yatralay.city.HyderabadActivity"
+            android:label="Hyderabad" />
+        />
+        <activity android:name="yarta.Yatralay.city.KalibanganActivity"
+            android:label="Kalibangan"/>
+        <activity android:name="yarta.Yatralay.city.HanumangarhActivity"
+            android:label="Hanumangarh"/>
+        <activity android:name="yarta.Yatralay.city.MathuraActivity"
+            android:label="Mathura"/>
+        <activity android:name="yarta.Yatralay.city.RohtakActivity"
+            android:label="Rohtak"/>
+        <activity android:name="yarta.Yatralay.city.MahabalipuramActivity"
+            android:label="Mahabalipuram"/>
+        <activity android:name="yarta.Yatralay.city.TiruchirapalliActivity"
+            android:label="Tiruchirapalli"/>
+        <activity android:name="yarta.Yatralay.city.PondicherryActivity"
+            android:label="Pondicherry"/>
+        <activity android:name="yarta.Yatralay.city.KurukshetraActivity"
+            android:label="Kurukshetra"></activity>
+        <activity android:name="yarta.Yatralay.tweetlist"
+            android:label="Tweets">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="yarta.Yatralay.AnalysisActivity" />
+        </activity>
+        <activity android:name=".Test"/>
+    </application>
+
+</manifest>

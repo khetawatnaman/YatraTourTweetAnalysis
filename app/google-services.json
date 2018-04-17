@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "7490267279",
+    "firebase_url": "https://yatralay-3f7c2.firebaseio.com",
+    "project_id": "yatralay-3f7c2",
+    "storage_bucket": "yatralay-3f7c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7490267279:android:687a48a7b00b0bb7",
+        "android_client_info": {
+          "package_name": "yarta.Yatralay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7490267279-em8beeji2jnhu3oa2i68j5ljt5uih8o3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yarta.Yatralay",
+            "certificate_hash": "e18b024e6aac101a4a27b268f3418960e93f844e"
+          }
+        },
+        {
+          "client_id": "7490267279-cpdj9vd3ig3fs4ggs52hpdgve28pl9jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7OqGr7bfoBd0y79Hp24eHiL82SNyiCDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7490267279-cpdj9vd3ig3fs4ggs52hpdgve28pl9jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
